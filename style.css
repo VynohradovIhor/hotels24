@@ -1,0 +1,49 @@
+@import "./fonts.css";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* li {
+    list-style: none;
+}
+
+* a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+@media screen and (max-width: 767px) {
+    .wrapper {
+        min-width: 32rem;
+        margin: 0 auto;
+        background-color: aquamarine;
+        text-align: center;
+    }
+    .login {
+        background-color: rgb(20, 231, 161);
+    }
+    .login-form {
+        text-align: center;
+        width: 32rem;
+    }
+    .login-list {
+        padding-top: 10rem;
+    }
+    .login-item:nth-child(-n+2) {
+        margin-bottom: 2rem;
+    }
+    .custom-lable {
+        width: 20rem;
+        height: 2.5rem;
+    }
+}
