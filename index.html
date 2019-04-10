@@ -13,46 +13,47 @@
 
 <body>
     <div class="wrapper">
-        <form action="#" method="post" class="login-form">
-            <div class="login">
-                <img class="login-img" src="./img/download.png" alt="hotels24" width="200">
+        <form action="#" method="post" class="login-form" id="login-form">
+            <div class="login-form_cont">
+                <img class="login-form_img" src="./img/download.png" alt="hotels24" width="200">
             </div>
 
-            <ul class="login-list">
-                <li class="login-item">
-                    <input name="userlogin" type="email" placeholder="введите email*" id="email_input" value="" required>
-                    <label class="custom-lable" for="email_input"></label>
+            <ul class="form-list">
+                <li class="list-item">
+                    <input name="userlogin" type="email" placeholder="введите адрес почты *" value="" autocomplete required>
                 </li>
-                <li class="login-item">
-                    <input name="userpsw" type="password" placeholder="введите пароль*" id="psw_input" value="" required>
-                    <label class="custom-lable" for="psw_input"></label>
+                <li class="list-item">
+                    <input name="userpsw" type="password" placeholder="введите пароль *" value="" autocomplete required>
                 </li>
-                <li class="login-item">
-                    <button type="submit" class="sublogbtn">регистрация</button>
+                <li class="list-item">
+                    <button type="submit" class="sublogbtn">войти</button>
                 </li>
             </ul>
 
             <div class="social-icons">
                 <ul class="social-icons_list">
-                    <li class="user-nav__item">
+                    <li class="user-nav__item facebookbtn">
                         <a href="#" class="header-nav__link ">
-                            <svg class="header-nav__icons">
-                                <use href="."></use>
+                            <svg class="header-nav__icons ">
+                                <use href="./img/svg/sprite.svg#icon-facebook"></use>
                            </svg>
                         </a>
                     </li>
                     <li class="user-nav__item">
+                        <a href="#" class="header-nav__link">
+                            <svg class="header-nav__icons">
+                                <use href="./img/svg/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="user-nav__item">
                         <a href="#" class="header-nav__link ">
                             <svg class="header-nav__icons">
-                                <use href="."></use>
-                        </svg>
+                                <use href="./img/svg/sprite.svg#icon-instagram"></use>
+                            </svg>
                         </a>
                     </li>
                 </ul>
-            </div>
-            <div class="cancel">
-                <button type="button" class="cancelbtn">Отмена</button>
-                <span class="pswbutton">Забыли<a href="#">пароль?</a></span>
             </div>
         </form>
     </div>
