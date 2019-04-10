@@ -45,6 +45,7 @@ html {
     padding: 2.5rem 0;
     max-width: 29rem;
     background-color: rgba(245, 175, 65, 0.7);
+    border-radius: 5px;
 }
 
 .list-item:nth-child(-n+2) {
