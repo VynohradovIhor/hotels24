@@ -24,7 +24,7 @@ html {
 
 .wrapper {
     width: 100%;
-    height: auto;
+    height: 100vh;
     margin: 0 auto;
     text-align: center;
     background: url("./img/motel.jpg") center no-repeat;
@@ -57,7 +57,7 @@ html {
     font-size: 1.6rem;
     width: 25rem;
     height: 4rem;
-    padding: 0 20px;
+    padding: 0 4rem;
     border: none;
     border-radius: 5px;
     outline: none;
@@ -70,7 +70,7 @@ html {
     width: 25rem;
     height: 4rem;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 1.8rem;
     border: none;
 }
 
@@ -100,3 +100,18 @@ html {
     height: 4rem;
     fill: rgb(236, 232, 224);
 }
+
+.icon-post{
+    background-image:url(./img/e-mail.png); 
+    background-repeat: no-repeat; 
+    background-position: 1rem;
+    background-size: 2rem;
+}
+
+.icon-lock{
+    background-image:url(./img/locked-padlock.png); 
+    background-repeat: no-repeat; 
+    background-position: 1rem;
+    background-size: 2rem;
+}
+    
