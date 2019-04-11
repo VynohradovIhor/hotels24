@@ -37,7 +37,7 @@ html {
 }
 
 .login-form_cont {
-    margin-bottom: 5rem;
+    margin-bottom: 12rem;
 }
 
 .form-list {
@@ -54,8 +54,8 @@ html {
 
 .login-form input {
     font-family: Open Sans, sans-serif;
-    font-size: 1.6rem;
-    width: 25rem;
+    font-size: 1.4rem;
+    width: 27rem;
     height: 4rem;
     padding: 0 4rem;
     border: none;
@@ -67,7 +67,7 @@ html {
     font-family: Open Sans, sans-serif;
     color: rgb(255, 255, 255);
     background-color: #0c9f76;
-    width: 25rem;
+    width: 27rem;
     height: 4rem;
     border-radius: 5px;
     font-size: 1.8rem;
@@ -77,8 +77,7 @@ html {
 .social-icons {
     width: 28rem;
     margin: 0 auto;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 10rem;
 }
 
 .social-icons_list {
@@ -92,26 +91,25 @@ html {
     height: 6.5rem;
     border: 0.2rem solid rgb(245, 175, 65);
     border-radius: 50%;
-    padding: 1rem 0;
+    padding: 1.4rem 0;
 }
 
 .header-nav__icons {
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     fill: rgb(236, 232, 224);
 }
 
-.icon-post{
-    background-image:url(./img/e-mail.png); 
-    background-repeat: no-repeat; 
+.icon-post {
+    background-image: url(./img/e-mail.png);
+    background-repeat: no-repeat;
     background-position: 1rem;
     background-size: 2rem;
 }
 
-.icon-lock{
-    background-image:url(./img/locked-padlock.png); 
-    background-repeat: no-repeat; 
+.icon-lock {
+    background-image: url(./img/locked-padlock.png);
+    background-repeat: no-repeat;
     background-position: 1rem;
     background-size: 2rem;
 }
-    
